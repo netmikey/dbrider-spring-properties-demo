@@ -1,0 +1,6 @@
+# This works
+#caseInsensitiveStrategy: UPPERCASE
+
+# This doesn't, although the value is defined in test-application.properties,
+# loaded into the Spring Context and even echoed by the test method.
+caseInsensitiveStrategy: ${my-case-insensitive-strategy}
